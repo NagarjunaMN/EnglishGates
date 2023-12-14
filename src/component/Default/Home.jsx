@@ -4,6 +4,8 @@ import car_image from '../../car_image.jpg'
 import whatsapp from '../../whatsapp.png'
 import chronometer from '../../chronometer.png'
 import video from '../../video.png'
+import {NavLink} from 'react-router-dom'
+
 
 function Home() {
   return (
@@ -33,7 +35,7 @@ function Home() {
             <div className="row card-body mt-5">    
                 <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light text-center">
-                        <a href="/individualpage"><img class="card-img-top" src={car_image} alt="Card image cap" /></a>
+                        <a href="/basic-level"><img class="card-img-top" src={car_image} alt="Card image cap" /></a>
                         <div class="card-body">
                             <h5 class="card-title">Basic Level</h5>
                          </div>
@@ -42,7 +44,7 @@ function Home() {
                 </div>
                 <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light text-center">
-                        <a href="/individualpage"><img class="card-img-top" src={car_image} alt="Card image cap" /></a>
+                        <a href="/spoken-level"><img class="card-img-top" src={car_image} alt="Card image cap" /></a>
                         <div class="card-body">
                             <h5 class="card-title">Spoken English Level</h5>
                          </div>
@@ -51,7 +53,7 @@ function Home() {
                 </div>
                 <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light text-center">
-                        <a href="/individualpage"><img class="card-img-top" src={car_image} alt="Card image cap" /></a>
+                        <a href="/advance-level"><img class="card-img-top" src={car_image} alt="Card image cap" /></a>
                         <div class="card-body">
                             <h5 class="card-title">Advance Level</h5>
                          </div>
@@ -122,6 +124,9 @@ function Home() {
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you want to start your English communication?</p>
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you want to improve your reading skills?</p>
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you want to improve your listening comprehension?</p>
+                            <div className="text-center">
+                              <NavLink to={'/basic-level'} className="text-center">Click here</NavLink>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -135,6 +140,9 @@ function Home() {
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Correct your grammatical mistakes?</p>
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you want to learn the correct pronunciation?</p>
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you want to approach your job interview with confidence?</p>
+                            <div className="text-center">
+                              <NavLink to={'/spoken-level'} className="text-center">Click here</NavLink>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,6 +155,9 @@ function Home() {
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Would you like to speak confidently in public?</p>
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you need accent training?</p>
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Would you like to go to your job interview with confidence?</p>
+                            <div className="text-center">
+                              <NavLink to={'/advance-level'} className="text-center">Click here</NavLink>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -180,6 +191,9 @@ function Home() {
                     <div class="card-body border border-secondary mb-2">
                       <p class="card-text">Translate English well.</p>
                     </div>
+                    <div class="card-body border border-secondary mb-2">
+                      <NavLink to={'/basic-level'} class="card-text">Know more</NavLink>
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
@@ -202,6 +216,9 @@ function Home() {
                     <div class="card-body border border-secondary mb-2">
                       <p class="card-text">Be a fluent reader of English.</p>
                     </div>
+                    <div class="card-body border border-secondary mb-2">
+                      <NavLink to={'/spoken-level'} class="card-text">Know more</NavLink>
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
@@ -223,6 +240,9 @@ function Home() {
                     </div>
                     <div class="card-body border border-secondary mb-2">
                       <p class="card-text">Achieve the LSRW skill.</p>
+                    </div>
+                    <div class="card-body border border-secondary mb-2">
+                      <NavLink to={'/advance-level'} class="card-text">Know more</NavLink>
                     </div>
                   </div>
                 </div>

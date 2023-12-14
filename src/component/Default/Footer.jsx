@@ -9,11 +9,10 @@ function Footer() {
         <div className="col-md-4 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Quick Links</h5>
                 <ul className="list-unstyled">
-                    <li><NavLink className="text-decoration-none text-white" href="#!">Home</NavLink></li>
-                    <li><NavLink className="text-decoration-none text-white" href="#!">Courses</NavLink></li>
-                    <li><NavLink className="text-decoration-none text-white" href="#!">About Us</NavLink></li>
-                    <li><NavLink className="text-decoration-none text-white" href="#!">Reviews</NavLink></li>
-                    <li><NavLink className="text-decoration-none text-white" href="#!">Contact Us</NavLink></li>
+                    <li><NavLink className="text-decoration-none text-white" to={"/home"}>Home</NavLink></li>
+                    <li><NavLink className="text-decoration-none text-white" to={"/about"}>About Us</NavLink></li>
+                    <li><NavLink className="text-decoration-none text-white" to={"/reviews"}>Reviews</NavLink></li>
+                    <li><NavLink className="text-decoration-none text-white" to={"/contact"}>Contact Us</NavLink></li>
                 </ul>
             </div>
 
@@ -22,9 +21,9 @@ function Footer() {
             <div className="col-md-4 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Courses</h5>
                 <ul className="list-unstyled">                                                                    
-                    <li><NavLink className="text-decoration-none text-white" href="#!">Basic Level</NavLink></li>
-                    <li><NavLink className="text-decoration-none text-white" href="#!">Spoken English Level</NavLink></li>
-                    <li><NavLink className="text-decoration-none text-white" href="#!">Advance Level</NavLink></li>
+                    <li><NavLink className="text-decoration-none text-white" to={"basic-level"}>Basic Level</NavLink></li>
+                    <li><NavLink className="text-decoration-none text-white" to={"spoken-level"}>Spoken English Level</NavLink></li>
+                    <li><NavLink className="text-decoration-none text-white" to={"advance-level"}>Advance Level</NavLink></li>
                 </ul>
             </div>
 

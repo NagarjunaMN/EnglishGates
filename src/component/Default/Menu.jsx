@@ -25,7 +25,7 @@ function Menu(props) {
           <React.Fragment>
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                      <NavLink to={'/'} className="nav-link active">Home</NavLink>
+                      <NavLink to={'/home'} className="nav-link active">Home</NavLink>
                   </li>
                   <li className="nav-item">
                     <ul className="navbar-nav">
@@ -34,13 +34,13 @@ function Menu(props) {
                         <ul className="dropdown-menu">
                           <React.Fragment>
                               <li>
-                                  <NavLink to={'/shirts'} className="dropdown-item" >Basic Level</NavLink>
+                                  <NavLink to={'/basic-level'} className="dropdown-item" >Basic Level</NavLink>
                               </li>
                               <li>
-                                  <NavLink to={'/tshirts'} className="dropdown-item" >Spoken English Level</NavLink>
+                                  <NavLink to={'/spoken-level'} className="dropdown-item" >Spoken English Level</NavLink>
                               </li>
                               <li>
-                                  <NavLink to={'/printed-tshirts'} className="dropdown-item" >Advance Level</NavLink>
+                                  <NavLink to={'/advance-level'} className="dropdown-item" >Advance Level</NavLink>
                               </li>
 
                           </React.Fragment>
