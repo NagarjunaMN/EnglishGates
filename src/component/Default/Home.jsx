@@ -31,16 +31,7 @@ function Home() {
                 <p class=" display-6">Our English Courses<button className="btn btn-primary float-end mt-3">English Courses</button></p>
             </div>
             <div className="row card-body mt-5">    
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
-                    <div class="card bg-light text-center">
-                        <a href="/individualpage"><img class="card-img-top" src={car_image} alt="Card image cap" /></a>
-                        <div class="card-body">
-                            <h5 class="card-title">Pre Basic Level</h5>
-                         </div>
-
-                    </div>
-                </div>
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
+                <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light text-center">
                         <a href="/individualpage"><img class="card-img-top" src={car_image} alt="Card image cap" /></a>
                         <div class="card-body">
@@ -49,16 +40,16 @@ function Home() {
 
                     </div>
                 </div>
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
+                <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light text-center">
                         <a href="/individualpage"><img class="card-img-top" src={car_image} alt="Card image cap" /></a>
                         <div class="card-body">
-                            <h5 class="card-title">Intermediate Level</h5>
+                            <h5 class="card-title">Spoken English Level</h5>
                          </div>
 
                     </div>
                 </div>
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
+                <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light text-center">
                         <a href="/individualpage"><img class="card-img-top" src={car_image} alt="Card image cap" /></a>
                         <div class="card-body">
@@ -121,20 +112,7 @@ function Home() {
                 </div>
             </div>
             <div className="row card-body mt-5">    
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
-                    <div class="card bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title text-center py-2">Pre Basic</h5>
-                            <h6 class="card-subtitle mb-2 text-center text-muted">Who is this course for?</h6>
-                            <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Are you a complete beginner in learning English?</p>
-                            <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you want to start learning English from the alphabet?</p>
-                            <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you want to gain confidence in learning English?</p>
-                            <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you need basic language learning exercises?</p>
-                            <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you desire to be able to read and write English?</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
+                <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light">
                         <div class="card-body">
                             <h5 class="card-title text-center py-2">Basic</h5>
@@ -147,10 +125,10 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
+                <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light">
                         <div class="card-body">
-                            <h5 class="card-title text-center py-2">Intermediate</h5>
+                            <h5 class="card-title text-center py-2">Spoken English</h5>
                             <h6 class="card-subtitle mb-2 text-center text-muted">Who is this course for?</h6>
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Do you want to improve your English speaking skills?</p>
                             <p class="card-text"><i class="bi bi-forward-fill text-primary"></i> Improve your vocabulary in English?</p>
@@ -160,7 +138,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
+                <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light">
                         <div class="card-body">
                             <h5 class="card-title text-center py-2">Advance</h5>
@@ -176,38 +154,16 @@ function Home() {
         </div>
       </div>
 
-      <div className="container my-5">
+      <div className="container my-5">  
         <div class="card">
             <div class="card-header text-center">
                 <p class=" display-6">Course Levels & Features</p>
             </div>
             <div className="row card-body mt-5">    
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
+                <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                   <div class="card border-0 text-center">
                     <div className="card-body border border-secondary  bg-primary mb-2">
-                      <h5 class="card-text">Pre Basic Level Course</h5>
-                    </div>
-                    <div class="card-body border border-secondary mb-2">
-                      <p class="card-text">Learn English from the scratch.</p>
-                    </div>
-                    <div class="card-body border border-secondary mb-2">
-                      <p class="card-text">Basic English writing.</p>
-                    </div>
-                    <div class="card-body border border-secondary mb-2">
-                      <p class="card-text">Day-to-day words.</p>
-                    </div>
-                    <div class="card-body border border-secondary mb-2">
-                      <p class="card-text">Action words.</p>
-                    </div>
-                    <div class="card-body border border-secondary mb-2">
-                      <p class="card-text">Learn to read.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
-                  <div class="card border-0 text-center">
-                    <div className="card-body border border-secondary  bg-primary mb-2">
-                      <h5 class="card-text">Basic Level Course</h5>
+                      <h5 class=" text-light card-text">Basic Level Course</h5>
                     </div>
                     <div class="card-body border border-secondary mb-2">
                       <p class="card-text">Know to introduce yourself.</p>
@@ -226,10 +182,10 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
+                <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                   <div class="card border-0 text-center">
                     <div className="card-body border border-secondary  bg-primary mb-2">
-                      <h5 class="card-text">Intermediate Level Course</h5>
+                      <h5 class=" text-light card-text">Spoken English Level Course</h5>
                     </div>
                     <div class="card-body border border-secondary mb-2">
                       <p class="card-text">Make error-free sentence.</p>
@@ -248,10 +204,10 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 mb-4 col-lg-3 col-sm-12">
+                <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                   <div class="card border-0 text-center">
                     <div className="card-body border border-secondary  bg-primary mb-2">
-                      <h5 class="card-text">Advance Level Course</h5>
+                      <h5 class=" text-light card-text">Advance Level Course</h5>
                     </div>
                     <div class="card-body border border-secondary mb-2">
                       <p class="card-text">Correct your accent.</p>

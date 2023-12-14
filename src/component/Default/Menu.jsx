@@ -34,20 +34,15 @@ function Menu(props) {
                         <ul className="dropdown-menu">
                           <React.Fragment>
                               <li>
-                                  <NavLink to={'/products'} className="dropdown-item" >Pre-Basic Level</NavLink>
-                              </li>
-                              <li>
                                   <NavLink to={'/shirts'} className="dropdown-item" >Basic Level</NavLink>
                               </li>
                               <li>
-                                  <NavLink to={'/tshirts'} className="dropdown-item" >Intermediate Level</NavLink>
+                                  <NavLink to={'/tshirts'} className="dropdown-item" >Spoken English Level</NavLink>
                               </li>
                               <li>
                                   <NavLink to={'/printed-tshirts'} className="dropdown-item" >Advance Level</NavLink>
                               </li>
-                              <li>
-                                  <NavLink to={'/printed-tshirts'} className="dropdown-item" >For Kids</NavLink>
-                              </li>
+
                           </React.Fragment>
                         </ul>
                       </li>
@@ -70,9 +65,6 @@ function Menu(props) {
                       </li>
                     </ul>
                   </li>
-                  <li className="nav-item">
-                      <NavLink to={'/about'} className="nav-link active" >Careers</NavLink>
-                  </li>
                   
                   <li className="nav-item">
                     <ul className="navbar-nav">
@@ -86,13 +78,16 @@ function Menu(props) {
                               <li>
                                   <NavLink to={'/shirts'} className="dropdown-item" >ಕನ್ನಡ</NavLink>
                               </li>
+                              <li>
+                                  <NavLink to={'/shirts'} className="dropdown-item" >हिंदी</NavLink>
+                              </li>
+                              <li>
+                                  <NavLink to={'/shirts'} className="dropdown-item" >తెలుగు</NavLink>
+                              </li>
                           </React.Fragment>
                         </ul>
                       </li>
                     </ul>
-                </li>
-                <li className="nav-item">
-                        <NavLink to={'/termsandcond'} className="nav-link active" >Terms & Conditions</NavLink>
                 </li>
               </ul>
               <ul className="navbar-nav">

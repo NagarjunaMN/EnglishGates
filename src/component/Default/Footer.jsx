@@ -22,11 +22,9 @@ function Footer() {
             <div className="col-md-4 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Courses</h5>
                 <ul className="list-unstyled">                                                                    
-                    <li><NavLink className="text-decoration-none text-white" href="#!">Pre-Basic Level</NavLink></li>
                     <li><NavLink className="text-decoration-none text-white" href="#!">Basic Level</NavLink></li>
-                    <li><NavLink className="text-decoration-none text-white" href="#!">Intermediate Level</NavLink></li>
+                    <li><NavLink className="text-decoration-none text-white" href="#!">Spoken English Level</NavLink></li>
                     <li><NavLink className="text-decoration-none text-white" href="#!">Advance Level</NavLink></li>
-                    <li><NavLink className="text-decoration-none text-white" href="#!">IELTS</NavLink></li>
                 </ul>
             </div>
 
@@ -35,6 +33,8 @@ function Footer() {
                 <ul className="list-unstyled">
                     <li><NavLink className="text-decoration-none text-white" href="#!">Tamil</NavLink></li>
                     <li><NavLink className="text-decoration-none text-white" href="#!">Kannada</NavLink></li>
+                    <li><NavLink className="text-decoration-none text-white" href="#!">Hindi</NavLink></li>
+                    <li><NavLink className="text-decoration-none text-white" href="#!">Telugu</NavLink></li>
                 </ul>
             </div>
         </div>
