@@ -13,7 +13,7 @@ function SpokenLevel() {
             <div class="col-md-12 col-sm-12 ml-0">
                 <div className="text-center">
                     <h1 class="display-3">Spoken English Level Course</h1>
-                    <img src={car_image} className='my-3' alt="" />
+                    <img src={car_image} className='my-3 w-100' alt="" />
                     <p>Spoken English course offers  extensive speaking opportunities to the students; take your communication skills to the next level now.</p>
                 </div>
                 <div className="container">

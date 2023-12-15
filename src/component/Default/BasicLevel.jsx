@@ -13,7 +13,7 @@ function BasicLevel() {
             <div class="col-md-12 col-sm-12 ml-0">
                 <div className="text-center">
                     <h1 class="display-3">Basic Level Course</h1>
-                    <img src={car_image} className='my-3' alt="" />
+                    <img src={car_image} className='my-3 w-100' alt="" />
                     <p>Want to learn English from the scratch? No problem! Join our Basic Spoken English batch to improve English from the beginning.</p>
                 </div>
                 <div className="container">

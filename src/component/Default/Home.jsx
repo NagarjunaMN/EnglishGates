@@ -1,9 +1,9 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import car_image from '../../car_image.jpg'
-import whatsapp from '../../whatsapp.png'
+import insignia from '../../insignia.png'
 import chronometer from '../../chronometer.png'
-import video from '../../video.png'
+import benefits from '../../benefits.png'
 import {NavLink} from 'react-router-dom'
 
 
@@ -29,8 +29,8 @@ function Home() {
 
       <div className="container my-5">
         <div class="card border-light bg-light">
-            <div class="card-header">
-                <p class=" display-6">Our English Courses<button className="btn btn-primary float-end mt-3">English Courses</button></p>
+            <div class="card-header text-center">
+                <p class=" display-6">Our English Courses</p>
             </div>
             <div className="row card-body mt-5">    
                 <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
@@ -73,14 +73,16 @@ function Home() {
                 <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light">
                       <div className="text-center">
-                        <a href="/individualpage"><img class="card-img-top w-25 pt-3" src={whatsapp} alt="Card image cap" /></a>
+                        <a href="/individualpage"><img class="card-img-top w-25 pt-3" src={insignia} alt="Card image cap" /></a>
                       </div>
                         <div class="card-body">
-                            <h5 class="card-title text-center py-2">WhatsApp Classes</h5>
-                            <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Text & on call training.</span></p>
-                            <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Jam session & story telling activities.</span></p>
-                            <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Speaking room training.</span></p>
-                            <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Multiple assignments.</span></p>
+                            <h5 class="card-title text-center py-2">Advantages </h5>
+                            <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Assignments.</span></p>
+                            <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Conversational and communication practices.</span></p>
+                            <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Creative activities.</span></p>
+                            <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Breakout room activities.</span></p>
+                            <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Live class activities.</span></p>
+                            <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Corrections and Feedback from Trainers.</span></p>
                         </div>
                     </div>
                 </div>
@@ -101,10 +103,10 @@ function Home() {
                 <div className="col-md-6 mb-4 col-lg-4 col-sm-12">
                     <div class="card bg-light">
                       <div className="text-center">
-                        <a href="/individualpage"><img class="card-img-top w-25 pt-3" src={video} alt="Card image cap" /></a>
+                        <a href="/individualpage"><img class="card-img-top w-25 pt-3" src={benefits} alt="Card image cap" /></a>
                       </div>
                         <div class="card-body">
-                            <h5 class="card-title text-center py-2">Flexible Timings</h5>
+                            <h5 class="card-title text-center py-2">Other Benifits</h5>
                             <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Spoken English & Grammar expertise.</span></p>
                             <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>Friendly & communicative.</span></p>
                             <p class="card-text"><i class="bi bi-check-circle text-primary"></i> <span>1 on 1 Training.</span></p>
